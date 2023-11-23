@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Mea+Culpa");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3d1b57;
+}
+
+.main-box {
+  /* border: 2px solid red; */
+  max-width: 425px;
+  margin: auto;
+}
+
+.first-card {
+  padding-top: 16px;
+  background-color: #3d1b57;
+}
+.video-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff3e6;
+}
+
+.svg-container {
+  position: relative;
+  max-width: 320px;
+  margin: auto;
+}
+
+.text-above-svg {
+  position: absolute;
+  top: 265px; /* Adjust the positioning as needed */
+  left: 50%; /* Adjust the positioning as needed */
+  transform: translateX(-50%);
+  z-index: 1;
+  font-family: Mea Culpa;
+  color: #693a7d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-above-svg p {
+  font-size: 38px;
+  margin: 0;
+}
+.text-above-svg span {
+  margin: 8px;
+  font-size: 18px;
+}
+
+.wedding {
+  margin-top: 20px;
+  font-size: 38px;
+  text-align: center;
+  font-family: Mea Culpa;
+  color: #fbe1c1;
+}
+.wedding-date {
+  padding: 8px 0 24px 0px;
+  text-align: center;
+  color: #fbe1c1;
+}
+.video-box {
+  margin: auto;
+  border-radius: 16px;
+}
